@@ -59,3 +59,33 @@ For more advanced features and examples, refer to the [LangGraph documentation](
 
 LangGraph Studio also integrates with [LangSmith](https://smith.langchain.com/) for more in-depth tracing and collaboration with teammates, allowing you to analyze and optimize your chatbot's performance.
 
+
+1 - install "hello-world" like and see it in langchain 
+understand the 3 levels of framwork
+https://docs.langchain.com/oss/python/langchain/overview
+
+
+pip install -U "langgraph-cli[inmem]"
+uv run langgraph dev
+langraph.json
+
+##
+
+# Reference project for agent development workshop 2026
+
+## Setup
+
+1. install the LangGraph cli
+
+```bash
+# Python >= 3.11 is required.
+pip install --upgrade "langgraph-cli[inmem]"
+```
+
+2. get openai api key at: https://platform.openai.com/settings/organization/api-keys
+3. set up environment variables in `.env`
+
+```bash
+OPENAI_API_KEY=<your_openai_api_key>
+```
+4. lunch the langgraph server: `langgraph dev`
